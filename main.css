@@ -20,17 +20,17 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color:white;
+    color:#87CEFA;
 }
 
 a:hover {
     text-decoration: underline;
-    color:white;
+    color:	#87CEFA;
 }
 
 a:active {
     text-decoration: underline;
-    color:white;
+    color:	#87CEFA;
 }
 li{
     display:block;
