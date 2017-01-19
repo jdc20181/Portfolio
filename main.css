@@ -67,11 +67,11 @@ h1{ margin: 0; }
 #contactForm { 
   display: none;
 
-  border: 6px solid salmon; 
+  border: 6px solid #3633FF; 
   padding: 2em;
   width: 400px;
   text-align: center;
-  background: #fff;
+  background:#333;
   position: fixed;
   top:50%;
   left:50%;
