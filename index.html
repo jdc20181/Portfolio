@@ -3,7 +3,12 @@
 <head>
    <link rel="stylesheet" type="text/css" href="./Style/main.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<script>
+   function showhide(id) {
+       	var e = document.getElementById(id);
+       	e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+     }
+   </script>
 </head>
 <body>
 
@@ -21,7 +26,7 @@
    <p>  I am Jeffrey, but a lot of times on the internet I go by jdc20181. </p>
    <p> This is my portfolio, with my skills, projects, contact, and hiring me. Below are my skills!</p>
    
-   <a class="button collapse" href="javascript:showhide('uniquename')">Show My Skills</a>
+   <a class="collapse" href="javascript:showhide('uniquename')">Show My Skills</a>
    <div id="uniquename" style="display:none;">
       HTML5
       <br>
