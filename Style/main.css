@@ -10,11 +10,12 @@ border-style: solid;
 }
 body {
     background: #555;
+    margin:0;
 }
 
 .content {
     max-width: 500px;
-    margin: auto;
+    margin: 0;
     background: white;
     padding: 10px;
     Text-align:center;
