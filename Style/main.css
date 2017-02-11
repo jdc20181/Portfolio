@@ -1,3 +1,6 @@
+.hide{
+    visibility:hidden;
+}
 img{
 border-style: solid;
     border-radius:50%;
