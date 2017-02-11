@@ -15,7 +15,7 @@ body {
 
 .content {
     max-width: 500px;
-    margin: 0;
+    margin:auto;
     background: white;
     padding: 10px;
     Text-align:center;
