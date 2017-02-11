@@ -21,8 +21,8 @@
    <p>  I am Jeffrey, but a lot of times on the internet I go by jdc20181. </p>
    <p> This is my portfolio, with my skills, projects, contact, and hiring me. Below are my skills!</p>
    
-   <a class="button" href="#" onclick="ToggleF()">Show My Skills</a>
-   <div id="Toggle">
+   <a class="button collapse" href="javascript:showhide('uniquename')">Show My Skills</a>
+   <div id="uniquename" style="display:none;">
       HTML5
       <br>
       CSS3
@@ -43,16 +43,7 @@
    </div>
  
    </div>
-   <script>
-      function ToggleF() {
-    var x = document.getElementById('Toggle');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-   </script>
+  
 
 </body>
 </html>
