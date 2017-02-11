@@ -3,7 +3,12 @@
 <head>
    <link rel="stylesheet" type="text/css" href="./Style/main.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<script>
+   function showhide(id) {
+       	var e = document.getElementById(id);
+       	e.style.display = (e.style.display == 'block') ? 'none' : 'block';
+     }
+   </script>
 </head>
 <body>
 
@@ -20,13 +25,15 @@
    <p> Please understand I have more projects than this you can view those <a href="https://github.com/jdc20181">here</a></p>
    <p> These are just the bigger ones! </p>
    <p> I have been coding for 2.5 years! </p>
-   <p>
-      <a href="http://beffsbrowser.tk">BeffsBrowser </a></p>
-   <p><a href="https://jdc20181.github.io/SpeedTest">SpeedTest Utility </a></p>
-   <p> <a href="http://buckcancerfoundation.org">Buck cancer Foundation (in progress)</a></p>
-   <p> Co-Founder of <a href="http://hive.study"> Hive </a></p>
-   <p> Lead Programmer/Chair Person of <a href="http://lawgen.org">The Lawgen Project</a></p>
-   
+   <br>
+      <a class="collapse" href="javascript:showhide('uniquename')">Show My Skills</a>
+         <div id="uniquename" style="display:none;">
+      <p><a class="button" href="http://beffsbrowser.tk">BeffsBrowser - Simple but powerful Webbrowser project </a></p>
+   <p><a class="button" href="https://jdc20181.github.io/SpeedTest">SpeedTest Utility </a></p>
+   <p> <a class="button" href="http://buckcancerfoundation.org">Buck cancer Foundation (in progress)</a></p>
+   <p> Co-Founder of  <a class="button" href="http://hive.study">Hive </a></p>
+   <p> Lead Programmer/Chair Person of <a class="button" href="http://lawgen.org">The Lawgen Project</a></p>
+   </div>
       
    </div>
 
