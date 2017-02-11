@@ -12,14 +12,47 @@
 <ul>
   <li> <a class="active" href="index.html">Home</a></li>
   <li><a href="projects.html">My Projects</a></li>
-   <li> <a href="contact.html"> Contact </li>
+   <li> <a href="contact.html"> Contact </a></li>
    <li> <a href="hireme.html"> Hire Me </a></li>
 </ul>
+   <br>
+   <h1> Welcome </h1>
    <p> <img src="Portfolio_Photo.jpg"> </p>
+   <p>  I am Jeffrey, but a lot of times on the internet I go by jdc20181. </p>
+   <p> This is my portfolio, with my skills, projects, contact, and hiring me. Below are my skills!</p>
    
-
+   <a class="button" href="#" onclick="ToggleF()">Show My Skills</a>
+   <div class="hide" id="Toggle">
+      HTML5
+      <br>
+      CSS3
+      <br>
+      JS (Basic)
+      <br>
+      Creating and maintaing Responsive websites
+      <br>
+      Wordpress
+      <br>
+      Vb.net
+      <br>
+      Typing
+      <br>
+      Excel (Accounting type stuff)
+      <br>
+      Adminstrating a computer (like changing settings, fixing issues etc.)
+   </div>
  
-</div>
+   </div>
+   <script>
+      function ToggleF() {
+    var x = document.getElementById('Toggle');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+   </script>
 
 </body>
 </html>
